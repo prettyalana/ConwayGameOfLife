@@ -1,18 +1,13 @@
 require_relative 'coverage'
 require_relative 'hiker'
+require_relative 'grid'
 
-describe "hiker" do
 
-  context "global function example" do
-    it "multiplies correctly" do
-      expect(global_answer).to eq(42)
-    end
-  end
+describe "grid" do
+  it "sets the width and height to the same value" do 
+    expect(grid.rows_and_columns).to eq(5)
+  end 
+  
+end 
 
-  context "instance method example" do
-    it "multiplies correctly" do
-      expect(Hiker.new.instance_answer).to eq(42)
-    end
-  end
 
-end

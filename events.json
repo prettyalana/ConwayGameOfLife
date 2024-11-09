@@ -11,5 +11,21 @@
       24,
       115448
     ]
+  },
+  {
+    "duration": 1.100536,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 1,
+    "time": [
+      2024,
+      11,
+      9,
+      19,
+      14,
+      17,
+      680230
+    ]
   }
 ]
