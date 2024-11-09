@@ -16,5 +16,9 @@ class Grid
   def initialize(rows_and_columns:)
     @rows_and_columns = rows_and_columns
   end
+  
+  def first
+    true 
+  end
 
 end

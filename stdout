@@ -1,21 +1,5 @@
-.F
+..
 
-Failures:
-
-  1) Grid represented as a collection of active or inactive
-     Failure/Error: grid.first
-
-     NoMethodError:
-       undefined method `first' for #<Grid:0x00007f0aea433270 @rows_and_columns=5>
-
-            grid.first
-                ^^^^^^
-     # ./hiker_spec.rb:13:in `block (2 levels) in <top (required)>'
-
-Finished in 0.00411 seconds (files took 0.23142 seconds to load)
-2 examples, 1 failure
-
-Failed examples:
-
-rspec ./hiker_spec.rb:11 # Grid represented as a collection of active or inactive
+Finished in 0.00306 seconds (files took 0.23807 seconds to load)
+2 examples, 0 failures
 
