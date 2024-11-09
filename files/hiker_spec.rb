@@ -1,5 +1,4 @@
 require_relative 'coverage'
-require_relative 'hiker'
 require_relative 'grid'
 
 
