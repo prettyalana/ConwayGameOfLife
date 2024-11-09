@@ -1,18 +1,5 @@
-F
+.
 
-Failures:
-
-  1) grid sets the width and height to the same value
-     Failure/Error: expect(grid.rows_and_columns).to eq(5)
-
-     NameError:
-       undefined local variable or method `grid' for #<RSpec::ExampleGroups::Grid "sets the width and height to the same value" (./hiker_spec.rb:6)>
-     # ./hiker_spec.rb:7:in `block (2 levels) in <top (required)>'
-
-Finished in 0.00327 seconds (files took 0.21694 seconds to load)
-1 example, 1 failure
-
-Failed examples:
-
-rspec ./hiker_spec.rb:6 # grid sets the width and height to the same value
+Finished in 0.00465 seconds (files took 0.2135 seconds to load)
+1 example, 0 failures
 

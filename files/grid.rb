@@ -13,7 +13,7 @@ end
 class Grid
   attr_reader :rows_and_columns
 
-  def initialize(rows_and_columns)
+  def initialize(rows_and_columns:)
     @rows_and_columns = rows_and_columns
   end
 
