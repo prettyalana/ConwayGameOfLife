@@ -1,14 +1,14 @@
 
 An error occurred while loading ./hiker_spec.rb.
-Failure/Error: require_relative 'grid'
+Failure/Error: require_relative 'hiker'
 
 LoadError:
-  cannot load such file -- /sandbox/grid
-# ./hiker_spec.rb:3:in `require_relative'
-# ./hiker_spec.rb:3:in `<top (required)>'
+  cannot load such file -- /sandbox/hiker
+# ./hiker_spec.rb:2:in `require_relative'
+# ./hiker_spec.rb:2:in `<top (required)>'
 No examples found.
 
 
-Finished in 0.00004 seconds (files took 0.21671 seconds to load)
+Finished in 0.00004 seconds (files took 0.18202 seconds to load)
 0 examples, 0 failures, 1 error occurred outside of examples
 

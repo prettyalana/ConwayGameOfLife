@@ -27,5 +27,21 @@
       17,
       680230
     ]
+  },
+  {
+    "duration": 0.902205,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 2,
+    "time": [
+      2024,
+      11,
+      9,
+      19,
+      14,
+      37,
+      543875
+    ]
   }
 ]
