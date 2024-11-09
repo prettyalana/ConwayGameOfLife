@@ -1,0 +1,21 @@
+{
+  "display_name": "Ruby, RSpec",
+  "image_name": "cyberdojofoundation/ruby_rspec:a09cb45",
+  "filename_extension": [
+    ".rb"
+  ],
+  "max_seconds": 10,
+  "tab_size": 2,
+  "exercise": "Game of Life",
+  "version": 2,
+  "created": [
+    2024,
+    11,
+    9,
+    19,
+    8,
+    24,
+    115448
+  ],
+  "id": "44HGaF"
+}
