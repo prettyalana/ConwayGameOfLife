@@ -91,5 +91,21 @@
       17,
       734694
     ]
+  },
+  {
+    "duration": 0.902585,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 6,
+    "time": [
+      2024,
+      11,
+      9,
+      19,
+      40,
+      45,
+      113489
+    ]
   }
 ]
