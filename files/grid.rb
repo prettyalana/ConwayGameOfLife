@@ -10,10 +10,11 @@ def global_answer
   6 * 9
 end
 
-class Hiker
+class Grid
+  attr_reader :rows_and_columns
 
-  def instance_answer
-    global_answer
+  def initialize(rows_and_columns)
+    @rows_and_columns = rows_and_columns
   end
 
 end
