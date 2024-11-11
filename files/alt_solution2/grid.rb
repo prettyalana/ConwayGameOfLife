@@ -1,26 +1,23 @@
-# The starting files are unrelated to the exercise.
-#
-# They simply show syntax for writing and testing
-#  o) a global function
-#  o) an instance method
-# Pick the style that best fits the exercise.
-# Then delete the other one, along with this comment!
-
 class Grid
-  attr_reader :rows_and_columns
+  attr_reader :size, :grid
   
-  def initialize(rows_and_columns, living_cells = [])
-    @rows_and_columns = rows_and_columns
-    @living_cells = living_cells
+  def initialize(size)
+    @size = size
+    @grid = []
   end
   
-  def get_status(index)
-    @living_cells.include?(index) ? :alive : :dead
-  end 
-  
-  def evolve
-    if @living_cells.size == 3
-      @living_cells << 10
+  def create_grid
+    size.times do
+      row = []
+      size.times do
+        row.append(false)
+      end
+      @grid.append(row)
     end
+    return @grid
+  end
+  
+  def self.grid
+    return @grid
   end
 end

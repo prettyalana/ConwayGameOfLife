@@ -6,19 +6,21 @@
 # Pick the style that best fits the exercise.
 # Then delete the other one, along with this comment!
 
-def global_answer
-  6 * 9
-end
-
 class Grid
   attr_reader :rows_and_columns
-
-  def initialize(rows_and_columns:)
+  
+  def initialize(rows_and_columns, living_cells = [])
     @rows_and_columns = rows_and_columns
+    @living_cells = living_cells
   end
   
-  def first
-    true 
+  def get_status(index)
+    @living_cells.include?(index) ? :alive : :dead
+  end 
+  
+  def evolve
+    if @living_cells.size == 3
+      @living_cells << 10
+    end
   end
-
 end
